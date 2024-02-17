@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import './App.css';
 import reportWebVitals from './reportWebVitals';
-import { ProductCard } from './components/ProductCard';
+import App from './App'
+// import { ProductCard } from './Components/ProductCard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ProductCard name='Denim Jeans' price="20"/>
-    <ProductCard name='Tailored Jeans' price="15"/>
+    {/* <ProductCard name='Denim Jeans' price="20"/>
+    <ProductCard name='Tailored Jeans' price="15"/> */}
+    <App/>
   </React.StrictMode>
 );
 
